@@ -1,0 +1,33 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0px;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  height: 80%;
+  background-color: #eee;
+}
+
+/* 첫 4개의 .product 요소에만 회색 배경 적용 */
+.product:nth-child(-n+4) {
+  background-color: #ccc;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #fff;
+  border: 1px solid #999;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
