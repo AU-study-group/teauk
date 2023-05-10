@@ -7,6 +7,7 @@ export const  TIMELIMIT =  `
 <span class= "count-down">5</span>초안에 구매하면 사은품 드림
 </div>`
 ;
+//
 
 
 

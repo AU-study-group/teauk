@@ -17,7 +17,7 @@ const intervalId = setInterval(() => {
 }, 1000);
    
 
-
+//
 //1. 숫자를 줄여야하니 count 라는 변수가 있어야함. 우리가 바꿔야할 텍스트를 가져와야함. 
 //setInterval((funcion 넣고 싶은 기능))
 //count가 1초에 1씩 감소를 해야함 0이 되면 더 이상 감소를 하면 안되고 문자가 바껴야함. text contant or insert HTML로 바꾸시오
