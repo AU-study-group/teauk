@@ -1,0 +1,71 @@
+h1 {
+  text-align: center;
+}
+nav {
+  background-color: purple;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+/* 메뉴 항목을 가운데 정렬합니다. */
+  justify-content: space-evenly;
+  list-style: none;
+  line-height: 2;
+  margin-top: 20px; /* 위쪽 간격 20px */
+  margin-bottom: 20px; /* 아래쪽 간격 20px */
+
+  
+}
+
+.menu li {
+  text-align: center;
+}
+
+.menu li a {
+  
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(40, 105,23, 0.521);
+  border-radius: 5px;
+}
+
+.FooterClass {
+  display: flex;
+  background-color: tomato;
+  line-height: 2;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+
+}
+.LiF {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 20px;
+  
+}
+.FooterUl {
+  display: flex;
+  text-align: center;
+  margin:0 auto;
+  justify-content: space-between;
+  
+}
+
+.burger{
+  display: none;
+  position: absolute;
+  right: 15px;
+  transform: translateY(-130px);
+}
+@media screen and (max-width:780px){
+   .burger{ display: block;}
+   .menu { flex-direction: column;}
+   .navBar{flex-direction: column;}   
+   .FooterClass {flex-direction: column;}
+   .FooterUl {flex-direction: column;}
+
+}
